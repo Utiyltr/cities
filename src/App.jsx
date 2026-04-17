@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import "/App.css";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import Citylist from "./components/citylist/citylist";
 import Createcityfrom from "./components/createCityform/createcityfrom";
+
+import "./App.css"
 
 function App() {
   const [city, setCity] = useState([]);
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <div onClick={closeModal} className="App">
+    <h1 className="title">Hello world</h1>
       <Navbar citieslength={city.length} />
       <main>
         <div className="no-cities">

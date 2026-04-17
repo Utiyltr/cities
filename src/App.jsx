@@ -33,7 +33,6 @@ function App() {
 
   return (
     <div onClick={closeModal} className="App">
-    <h1 className="title">Hello world</h1>
       <Navbar citieslength={city.length} />
       <main>
         <div className="no-cities">
